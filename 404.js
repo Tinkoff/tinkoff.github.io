@@ -3,6 +3,7 @@ const REDIRECTS = {
     'ng-web-apis': 'https://taiga-family.github.io/ng-web-apis',
     'ng-morph': 'https://taiga-family.github.io/ng-morph',
     'ng-polymorpheus': 'https://taiga-family.github.io/ng-polymorpheus',
+    'maskito': 'https://maskito.dev',
 };
 
 const [_, possibleBaseHref, ...pathSegments] = location.pathname.split('/');
